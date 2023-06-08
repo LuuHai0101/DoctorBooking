@@ -1,0 +1,190 @@
+ //reset slick slider css
+ .slick-prev {
+     //position: relative !important;
+     left: -15px !important;
+     z-index: 1000 !important;
+     height: 40px !important;
+     width: 40px !important;
+     background: #fff !important;
+     border: 2px solid #d7d7d7 !important;
+
+     &:hover {
+         background: #e6e2e2 !important;
+     }
+ }
+
+ .slick-prev:before,
+ .slick-next:before {
+     font-family: FontAwesome !important;
+     color: red !important;
+     //content: "\e257 " !important;
+ }
+
+ .slick-next {
+     right: -8px !important;
+     z-index: 1000 !important;
+     height: 40px !important;
+     width: 40px !important;
+     background: #fff !important;
+     border: 2px solid #d7d7d7 !important;
+
+     &:hover {
+         background: #e6e2e2 !important;
+     }
+ }
+
+ .slick-disabled {
+     display: none !important;
+ }
+
+ .section-share {
+     &.section-specialty {
+         background: #f5f5f5;
+     }
+
+     &.section-outstanding-doctor {
+         background: #f5f5f5;
+     }
+
+     &.section-about {
+         height: 500px !important;
+         border-top: 1px solid #f5f5f5;
+         border-bottom: 1px solid #f5f5f5;
+     }
+
+     .section-body {
+         .section-customize {
+             .bg-image {
+                 //background: url('../../assets/specialty/co-xuong-khop.jpg');
+                 width: 280px;
+                 height: 150px;
+                 background-position: center center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 background-color: #eee;
+
+                 &.section-specialty {
+                    // background-image: url('../../assets/specialty/co-xuong-khop.jpg');
+                 }
+
+                 &.section-medical-facility {
+                    // background-image: url('../../assets/medical-facility/benh-vien-viet-duc.jpg');
+                 }
+
+                 &.section-outstanding-doctor {
+                     // background-image: url('../../assets/outstanding-doctor/anh-dai-dien-bs.jpg');
+                     width: 120px;
+                     height: 120px;
+                     border-radius: 50%;
+                     background-size: cover;
+                     background-repeat: no-repeat;
+                     background-position: center;
+                 }
+
+                 &.section-handbook {
+                     background-image: url('../../assets/handbook/handbook.jpg');
+                 }
+             }
+         }
+     }
+ }
+
+ .section-share {
+     height: 330px;
+
+     .section-container {
+         margin: 0 120px;
+         display: flex;
+         flex-direction: column;
+
+         .section-header {
+             height: 60px;
+             margin-bottom: 30px;
+             padding-top: 30px;
+
+             .title-section {
+                 font-size: 22px;
+                 font-weight: 600;
+             }
+
+             .btn-section {
+                 float: right;
+                 padding: 10px 13px;
+                 border: none;
+                 outline: none;
+                 display: block;
+                 background: #e6e2e2;
+                 color: black;
+                 cursor: pointer;
+                 text-transform: uppercase;
+                 font-size: 11px;
+
+                 &:hover {
+                     color: #fff;
+                     background: #f7d800;
+                 }
+             }
+         }
+
+
+     }
+ }
+
+
+ .section-outstanding-doctor {
+     .outer-bg {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 10px;
+     }
+
+     .section-customize {
+         padding: 5px;
+         cursor: pointer;
+
+         .customize-border {
+             border: 1px solid orange;
+             padding: 20px;
+         }
+     }
+ }
+
+
+ .home-footer {
+     text-align: center;
+     padding-top: 8px;
+
+     a {
+         text-decoration: unset;
+     }
+ }
+
+ .section-about {
+     padding: 0 100px;
+
+     .section-about-header {
+         padding: 20px 10px;
+         font-size: 22px;
+         font-weight: 600;
+     }
+
+     .section-about-content {
+         display: flex;
+         gap: 20px;
+         width: 100%;
+
+         .content-left {
+             width: 60%;
+         }
+
+         .content-right {
+             width: 40%;
+
+             p {
+                 text-align: justify;
+                 font-style: italic;
+                 padding: 15px;
+             }
+         }
+     }
+ }
